@@ -1,0 +1,141 @@
+* {
+	margin:0;
+	padding:0;
+}
+.container {
+	width:1200px;
+	margin:auto;
+}
+.header-area {
+	background-color:#fff;
+	border-bottom:5px solid #2ecc71;
+	overflow:hidden;
+}
+.logo {
+	width:30%;
+	float:left;
+}
+.logo img {
+}
+.main-menu {
+	width:70%;
+	float:left;
+}
+.main-menu ul {
+	list-style:none;
+	float:right;
+}
+.main-menu li {
+	float:left;
+	padding:52px 24px;
+}
+.main-menu a {
+	text-transform: uppercase;
+	color:#000;
+	text-decoration:none;
+	transition:0.5s all;
+}
+.main-menu a:hover {
+	color:#e67e22;
+}
+.main-menu li.active a{
+	color:#e67e22;
+}
+.banner-area {
+	background:url(images/branner.jpg) no-repeat;
+	background-size:cover;
+	background-position:top center;
+	text-align:center;
+	border-bottom:5px solid #2ecc71;
+}
+.banner-area h1 {
+  padding-top: 200px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 41px;
+  font-size: 55px;
+}
+.banner-area a {
+  display: inline-block;
+  color: #fff;
+  background: #8e44ad;
+  padding: 20px 30px;
+  margin-bottom: 200px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition:0.5s all;
+  border:1px solid transparent;
+  border-radius:5px;
+}
+.banner-area a:hover {
+	background:#fff;
+	color:#8e44ad;
+	border:1px solid #8e44ad;	
+}
+.main-content {
+	overflow:hidden;
+	padding-top:30px;
+}
+.content-area {
+	width:60%;
+	margin-right:5%;
+	float:left;
+}
+.single-article {
+	margin-bottom:50px;
+	border-bottom:3px solid #1abc9c;
+}
+.single-article:last-child {
+	margin-bottom:0;
+	border-bottom:none;
+}
+.single-article img {
+	width:100%;
+}
+.single-article h2 {
+	font-size:45px;
+	color:#34495e;
+	text-transform: uppercase;
+	margin:20px 0;
+}
+.single-article p {
+	font-size:20px;
+	margin-bottom:30px;
+}
+.sidebar {
+	width:35%;
+	float:left;
+}
+.single-sidebar {
+	margin-bottom:50px;
+}
+.single-sidebar h2 {
+	font-size:35px;
+	text-transform: uppercase;
+	margin-bottom:20px;
+	border-bottom:1px solid #f39c12;
+}
+.single-sidebar ul {
+	list-style:none;
+	padding-left:30px;
+}
+.single-sidebar ul li {
+	padding:5px 0;
+	border-bottom:1px dotted #1abc9c;
+}
+.single-sidebar ul li a{
+	text-decoration: none;
+	font-size:20px;
+}
+.single-sidebar img {
+	width:100%;
+}
+footer {
+	background-color:#95a5a6;
+	text-align: center;
+	padding:20px 0;
+}
+footer p {
+	color:#fff;
+	font-size:20px;
+}
